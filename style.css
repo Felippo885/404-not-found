@@ -1,0 +1,74 @@
+/* Corpo */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,700;1,400&display=swap');
+
+@import url('reset.css');
+
+p {
+    font-family: 'Space Mono', monospace;
+}
+
+header {
+    margin: 15px;
+}
+
+/* Conteúdo */
+
+.container {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+    gap: 130px;
+    
+    position: relative;
+    top: 100px;
+
+    flex-wrap: wrap;
+    width: 100%;
+    overflow: hidden;
+    min-width: 320px;
+}
+
+.informacao-img {
+    height: 350px;
+}
+
+.informacao {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    position: relative;
+    bottom: 30px;
+    width: 350px;
+}
+
+.informacao-h1 {
+    font-family: 'Space Mono', monospace;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.informacao-paragrafo  {
+    font-weight: 400;
+    opacity: 0.8;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.informacao-button {
+    font-family: 'Space Mono', monospace;
+    background-color: black;
+    color: white;
+    border: none;
+    width: 200px;
+    height: 60px;
+    font-size: 14px;
+
+    cursor: pointer;
+}
+
+.informacao-button:hover {
+    background-color: #8e3f65;
+    transition: 0.6s;
+}
